@@ -12,6 +12,7 @@
 
 -(void) testFunction;
 
+-(void) anotherFunc;
 
 @end
 
