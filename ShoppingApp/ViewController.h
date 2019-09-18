@@ -10,6 +10,8 @@
 
 @interface ViewController : UIViewController
 
+-(void) testFunction;
+
 
 @end
 
