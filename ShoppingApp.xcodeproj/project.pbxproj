@@ -13,6 +13,7 @@
 		52B970922332C62A00EF6B43 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52B970912332C62A00EF6B43 /* Assets.xcassets */; };
 		52B970952332C62A00EF6B43 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52B970932332C62A00EF6B43 /* LaunchScreen.storyboard */; };
 		52B970982332C62A00EF6B43 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 52B970972332C62A00EF6B43 /* main.m */; };
+		52FBF57623333A1C009DF7A8 /* APIHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 52FBF57523333A1C009DF7A8 /* APIHandler.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		52B970942332C62A00EF6B43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		52B970962332C62A00EF6B43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		52B970972332C62A00EF6B43 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		52FBF57423333A1C009DF7A8 /* APIHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = APIHandler.h; sourceTree = "<group>"; };
+		52FBF57523333A1C009DF7A8 /* APIHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = APIHandler.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,7 @@
 		52B970872332C62800EF6B43 /* ShoppingApp */ = {
 			isa = PBXGroup;
 			children = (
+				52FBF57723333A26009DF7A8 /* APIHandler */,
 				52B970882332C62800EF6B43 /* AppDelegate.h */,
 				52B970892332C62800EF6B43 /* AppDelegate.m */,
 				52B9708B2332C62800EF6B43 /* ViewController.h */,
@@ -69,6 +73,15 @@
 				52B970972332C62A00EF6B43 /* main.m */,
 			);
 			path = ShoppingApp;
+			sourceTree = "<group>";
+		};
+		52FBF57723333A26009DF7A8 /* APIHandler */ = {
+			isa = PBXGroup;
+			children = (
+				52FBF57423333A1C009DF7A8 /* APIHandler.h */,
+				52FBF57523333A1C009DF7A8 /* APIHandler.m */,
+			);
+			path = APIHandler;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -144,6 +157,7 @@
 				52B9708D2332C62800EF6B43 /* ViewController.m in Sources */,
 				52B970982332C62A00EF6B43 /* main.m in Sources */,
 				52B9708A2332C62800EF6B43 /* AppDelegate.m in Sources */,
+				52FBF57623333A1C009DF7A8 /* APIHandler.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
