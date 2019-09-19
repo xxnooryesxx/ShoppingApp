@@ -14,6 +14,9 @@
 		52B970952332C62A00EF6B43 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52B970932332C62A00EF6B43 /* LaunchScreen.storyboard */; };
 		52B970982332C62A00EF6B43 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 52B970972332C62A00EF6B43 /* main.m */; };
 		52FBF57623333A1C009DF7A8 /* APIHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 52FBF57523333A1C009DF7A8 /* APIHandler.m */; };
+		5F5C093623342B8D0009D4D6 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F5C093523342B8D0009D4D6 /* Home.storyboard */; };
+		5F5C093823342BA70009D4D6 /* Cart.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F5C093723342BA70009D4D6 /* Cart.storyboard */; };
+		5F5C093A23342BC70009D4D6 /* Items.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F5C093923342BC70009D4D6 /* Items.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +32,9 @@
 		52B970972332C62A00EF6B43 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		52FBF57423333A1C009DF7A8 /* APIHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = APIHandler.h; sourceTree = "<group>"; };
 		52FBF57523333A1C009DF7A8 /* APIHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = APIHandler.m; sourceTree = "<group>"; };
+		5F5C093523342B8D0009D4D6 /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		5F5C093723342BA70009D4D6 /* Cart.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Cart.storyboard; sourceTree = "<group>"; };
+		5F5C093923342BC70009D4D6 /* Items.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Items.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,14 +67,13 @@
 		52B970872332C62800EF6B43 /* ShoppingApp */ = {
 			isa = PBXGroup;
 			children = (
-				52FBF57723333A26009DF7A8 /* APIHandler */,
+				5F5C093423342B2F0009D4D6 /* ViewModel */,
+				5F5C093323342B270009D4D6 /* View */,
+				5F5C093223342B200009D4D6 /* Model */,
+				5F5C093123342B0F0009D4D6 /* Storyboards */,
 				52B970882332C62800EF6B43 /* AppDelegate.h */,
 				52B970892332C62800EF6B43 /* AppDelegate.m */,
-				52B9708B2332C62800EF6B43 /* ViewController.h */,
-				52B9708C2332C62800EF6B43 /* ViewController.m */,
-				52B9708E2332C62800EF6B43 /* Main.storyboard */,
 				52B970912332C62A00EF6B43 /* Assets.xcassets */,
-				52B970932332C62A00EF6B43 /* LaunchScreen.storyboard */,
 				52B970962332C62A00EF6B43 /* Info.plist */,
 				52B970972332C62A00EF6B43 /* main.m */,
 			);
@@ -82,6 +87,42 @@
 				52FBF57523333A1C009DF7A8 /* APIHandler.m */,
 			);
 			path = APIHandler;
+			sourceTree = "<group>";
+		};
+		5F5C093123342B0F0009D4D6 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				52B9708E2332C62800EF6B43 /* Main.storyboard */,
+				52B970932332C62A00EF6B43 /* LaunchScreen.storyboard */,
+				5F5C093523342B8D0009D4D6 /* Home.storyboard */,
+				5F5C093723342BA70009D4D6 /* Cart.storyboard */,
+				5F5C093923342BC70009D4D6 /* Items.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		5F5C093223342B200009D4D6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				52FBF57723333A26009DF7A8 /* APIHandler */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5F5C093323342B270009D4D6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				52B9708B2332C62800EF6B43 /* ViewController.h */,
+				52B9708C2332C62800EF6B43 /* ViewController.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5F5C093423342B2F0009D4D6 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -144,6 +185,9 @@
 				52B970952332C62A00EF6B43 /* LaunchScreen.storyboard in Resources */,
 				52B970922332C62A00EF6B43 /* Assets.xcassets in Resources */,
 				52B970902332C62800EF6B43 /* Main.storyboard in Resources */,
+				5F5C093A23342BC70009D4D6 /* Items.storyboard in Resources */,
+				5F5C093823342BA70009D4D6 /* Cart.storyboard in Resources */,
+				5F5C093623342B8D0009D4D6 /* Home.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
