@@ -20,6 +20,7 @@
     // Do any additional setup after loading the view.
     APIHandler *instance = [[APIHandler sharedInstance]init];
     
+    
 }
 
 -(void)testFunction {

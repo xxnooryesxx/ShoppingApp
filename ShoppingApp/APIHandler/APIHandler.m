@@ -22,7 +22,7 @@
     return sharedInstance;
 }
 
-- (NSURL *)registration:(NSString *)name url:(NSString *)password para:(NSString *)mobile meter:(NSString *)email{
+- (NSURL *)registrationName:(NSString *)name Password:(NSString *)password Mobile:(NSString *)mobile Email:(NSString *)email{
     
     NSString *urlstr = [[NSString alloc] initWithString:[NSString stringWithFormat:@"https://rjtmobile.com/ansari/shopingcart/ios_ssl/shop_reg.php?name=%@&email=%@&mobile=%@&password=%@",name,email, mobile, password]];
     

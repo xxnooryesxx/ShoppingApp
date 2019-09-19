@@ -15,7 +15,7 @@ NS_ASSUME_NONNULL_BEGIN
 +(instancetype) sharedInstance;
 
 //-(instancetype) init NS_UNAVAILABLE;
-- (NSURL *) registration: (NSString *)name url: (NSString *)password para: (NSString *)mobile meter: (NSString *)email ;
+- (NSURL *) registrationName: (NSString *)name Password: (NSString *)password Moble: (NSString *)mobile Email: (NSString *)email ;
 
 @end
 
