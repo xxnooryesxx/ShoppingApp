@@ -16,6 +16,7 @@
 		5F5C092823340D160009D4D6 /* SignUpBuyerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F5C092723340D160009D4D6 /* SignUpBuyerViewController.m */; };
 		5F5C092B23340D210009D4D6 /* SignUpSellerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F5C092A23340D210009D4D6 /* SignUpSellerViewController.m */; };
 		5F5C092D23340D680009D4D6 /* Models.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F5C092C23340D680009D4D6 /* Models.m */; };
+		A40F55262334184800006E2D /* ProfileScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = A40F55252334184800006E2D /* ProfileScreen.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,8 @@
 		5F5C092923340D210009D4D6 /* SignUpSellerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SignUpSellerViewController.h; sourceTree = "<group>"; };
 		5F5C092A23340D210009D4D6 /* SignUpSellerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SignUpSellerViewController.m; sourceTree = "<group>"; };
 		5F5C092C23340D680009D4D6 /* Models.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Models.m; sourceTree = "<group>"; };
+		A40F55242334184800006E2D /* ProfileScreen.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProfileScreen.h; sourceTree = "<group>"; };
+		A40F55252334184800006E2D /* ProfileScreen.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProfileScreen.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +99,8 @@
 				5F5C092723340D160009D4D6 /* SignUpBuyerViewController.m */,
 				5F5C092923340D210009D4D6 /* SignUpSellerViewController.h */,
 				5F5C092A23340D210009D4D6 /* SignUpSellerViewController.m */,
+				A40F55242334184800006E2D /* ProfileScreen.h */,
+				A40F55252334184800006E2D /* ProfileScreen.m */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -186,6 +191,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A40F55262334184800006E2D /* ProfileScreen.m in Sources */,
 				5F5C092D23340D680009D4D6 /* Models.m in Sources */,
 				52B970982332C62A00EF6B43 /* main.m in Sources */,
 				52B9708A2332C62800EF6B43 /* AppDelegate.m in Sources */,
