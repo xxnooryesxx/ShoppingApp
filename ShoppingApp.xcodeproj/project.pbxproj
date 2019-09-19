@@ -8,20 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		52B9708A2332C62800EF6B43 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 52B970892332C62800EF6B43 /* AppDelegate.m */; };
-		52B9708D2332C62800EF6B43 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52B9708C2332C62800EF6B43 /* ViewController.m */; };
 		52B970902332C62800EF6B43 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52B9708E2332C62800EF6B43 /* Main.storyboard */; };
 		52B970922332C62A00EF6B43 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52B970912332C62A00EF6B43 /* Assets.xcassets */; };
 		52B970952332C62A00EF6B43 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52B970932332C62A00EF6B43 /* LaunchScreen.storyboard */; };
 		52B970982332C62A00EF6B43 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 52B970972332C62A00EF6B43 /* main.m */; };
 		5F5C092123340C280009D4D6 /* APIHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F5C092023340C280009D4D6 /* APIHandler.m */; };
+		5F5C092823340D160009D4D6 /* SignUpBuyerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F5C092723340D160009D4D6 /* SignUpBuyerViewController.m */; };
+		5F5C092B23340D210009D4D6 /* SignUpSellerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F5C092A23340D210009D4D6 /* SignUpSellerViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		52B970852332C62800EF6B43 /* ShoppingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShoppingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52B970882332C62800EF6B43 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		52B970892332C62800EF6B43 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		52B9708B2332C62800EF6B43 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		52B9708C2332C62800EF6B43 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		52B9708F2332C62800EF6B43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		52B970912332C62A00EF6B43 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		52B970942332C62A00EF6B43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -29,6 +28,10 @@
 		52B970972332C62A00EF6B43 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5F5C091F23340C280009D4D6 /* APIHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = APIHandler.h; sourceTree = "<group>"; };
 		5F5C092023340C280009D4D6 /* APIHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = APIHandler.m; sourceTree = "<group>"; };
+		5F5C092623340D160009D4D6 /* SignUpBuyerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SignUpBuyerViewController.h; sourceTree = "<group>"; };
+		5F5C092723340D160009D4D6 /* SignUpBuyerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SignUpBuyerViewController.m; sourceTree = "<group>"; };
+		5F5C092923340D210009D4D6 /* SignUpSellerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SignUpSellerViewController.h; sourceTree = "<group>"; };
+		5F5C092A23340D210009D4D6 /* SignUpSellerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SignUpSellerViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,8 +89,10 @@
 		5F5C092323340C590009D4D6 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				52B9708B2332C62800EF6B43 /* ViewController.h */,
-				52B9708C2332C62800EF6B43 /* ViewController.m */,
+				5F5C092623340D160009D4D6 /* SignUpBuyerViewController.h */,
+				5F5C092723340D160009D4D6 /* SignUpBuyerViewController.m */,
+				5F5C092923340D210009D4D6 /* SignUpSellerViewController.h */,
+				5F5C092A23340D210009D4D6 /* SignUpSellerViewController.m */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -178,9 +183,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52B9708D2332C62800EF6B43 /* ViewController.m in Sources */,
 				52B970982332C62A00EF6B43 /* main.m in Sources */,
 				52B9708A2332C62800EF6B43 /* AppDelegate.m in Sources */,
+				5F5C092823340D160009D4D6 /* SignUpBuyerViewController.m in Sources */,
+				5F5C092B23340D210009D4D6 /* SignUpSellerViewController.m in Sources */,
 				5F5C092123340C280009D4D6 /* APIHandler.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
