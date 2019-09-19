@@ -1,27 +1,19 @@
 //
-//  SignUpBuyerViewController.m
+//  ViewController.m
 //  ShoppingApp
 //
-//  Created by Nawid Ayobi on 9/19/19.
+//  Created by 愤怒大葱鸭 on 9/18/19.
 //  Copyright © 2019 愤怒大葱鸭. All rights reserved.
 //
 
-<<<<<<< HEAD:ShoppingApp/ViewController.m
 #import "ViewController.h"
 #import "APIHandler.h"
-=======
-#import "SignUpBuyerViewController.h"
->>>>>>> master:ShoppingApp/Views/SignUpBuyerViewController.m
 
-@interface SignUpBuyerViewController ()
+@interface ViewController ()
 
 @end
 
-@implementation SignUpBuyerViewController
-
-
-
-
+@implementation ViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -29,6 +21,10 @@
     APIHandler *instance = [[APIHandler sharedInstance]init];
     
     
+}
+
+-(void)testFunction {
+    NSLog(@"oops");
 }
 
 
