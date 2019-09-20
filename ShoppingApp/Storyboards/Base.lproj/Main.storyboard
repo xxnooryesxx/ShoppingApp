@@ -364,6 +364,9 @@
                                 <state key="normal" title="Sign In">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="signUp:" destination="nYI-z6-76b" eventType="touchUpInside" id="KjT-zC-Huu"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sYd-Fc-xRO">
                                 <rect key="frame" x="20" y="534" width="374" height="50"/>
@@ -398,6 +401,11 @@
                         <viewLayoutGuide key="safeArea" id="M7b-xY-54w"/>
                     </view>
                     <navigationItem key="navigationItem" id="y7b-do-P5m"/>
+                    <connections>
+                        <outlet property="password" destination="Xla-Rd-bhX" id="dhg-qz-DH2"/>
+                        <outlet property="phone" destination="qeS-Pb-9Tc" id="TlQ-KQ-owz"/>
+                        <outlet property="signUp" destination="P0S-wb-tt8" id="k2v-TD-eN5"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uqQ-IX-oIY" sceneMemberID="firstResponder"/>
             </objects>

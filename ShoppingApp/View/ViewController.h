@@ -10,9 +10,11 @@
 
 @interface ViewController : UIViewController
 
--(void) testFunction;
+@property (weak, nonatomic) IBOutlet UITextField *phone;
+@property (weak, nonatomic) IBOutlet UITextField *password;
+@property (weak, nonatomic) IBOutlet UIButton *signUp;
 
--(void) anotherFunc;
+- (IBAction)signUp:(id)sender;
 
 @end
 
