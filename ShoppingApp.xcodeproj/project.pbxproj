@@ -16,7 +16,6 @@
 		52FBF57623333A1C009DF7A8 /* APIHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 52FBF57523333A1C009DF7A8 /* APIHandler.m */; };
 		5F5C093623342B8D0009D4D6 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F5C093523342B8D0009D4D6 /* Home.storyboard */; };
 		5F5C093823342BA70009D4D6 /* Cart.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F5C093723342BA70009D4D6 /* Cart.storyboard */; };
-		5F5C093A23342BC70009D4D6 /* Items.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F5C093923342BC70009D4D6 /* Items.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,7 +33,6 @@
 		52FBF57523333A1C009DF7A8 /* APIHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = APIHandler.m; sourceTree = "<group>"; };
 		5F5C093523342B8D0009D4D6 /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
 		5F5C093723342BA70009D4D6 /* Cart.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Cart.storyboard; sourceTree = "<group>"; };
-		5F5C093923342BC70009D4D6 /* Items.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Items.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,7 +94,6 @@
 				52B970932332C62A00EF6B43 /* LaunchScreen.storyboard */,
 				5F5C093523342B8D0009D4D6 /* Home.storyboard */,
 				5F5C093723342BA70009D4D6 /* Cart.storyboard */,
-				5F5C093923342BC70009D4D6 /* Items.storyboard */,
 			);
 			path = Storyboards;
 			sourceTree = "<group>";
@@ -185,7 +182,6 @@
 				52B970952332C62A00EF6B43 /* LaunchScreen.storyboard in Resources */,
 				52B970922332C62A00EF6B43 /* Assets.xcassets in Resources */,
 				52B970902332C62800EF6B43 /* Main.storyboard in Resources */,
-				5F5C093A23342BC70009D4D6 /* Items.storyboard in Resources */,
 				5F5C093823342BA70009D4D6 /* Cart.storyboard in Resources */,
 				5F5C093623342B8D0009D4D6 /* Home.storyboard in Resources */,
 			);
